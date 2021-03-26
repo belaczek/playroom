@@ -3,9 +3,13 @@
   "version": "0.0.0-semantically-released",
   "description": "Design with code, powered by your own component library",
   "main": "utils/index.js",
+  "private": "false",
   "types": "utils/index.d.ts",
   "bin": {
     "playroom": "bin/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "cypress": "start-server-and-test examples:build-and-serve '9000|9001' 'cypress run'",
