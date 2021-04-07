@@ -1,6 +1,6 @@
 {
   "name": "@belaczek/playroom",
-  "version": "0.24.0",
+  "version": "0.24.1",
   "description": "Design with code, powered by your own component library",
   "main": "utils/index.js",
   "private": false,
